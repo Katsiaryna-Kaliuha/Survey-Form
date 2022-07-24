@@ -2,6 +2,7 @@ body {
   width: 100%;
   margin: 0 0 0 0;
   background-image: url(https://img1.akspic.ru/crops/6/3/3/0/10336/10336-vysokaya_tehnologiya-svet-inzheneriya-sinij-informacionnye_tehnologii-2560x1440.jpg);
+  background-attachment: fixed;
   color:white;
   font-family: "Poppins", sans-serif;
   font-size: 18px; 
