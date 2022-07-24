@@ -1,5 +1,6 @@
 body {
   width: 100%;
+  height: fit-content;
   margin: 0 0 0 0;
   background-image: url(https://img1.akspic.ru/crops/6/3/3/0/10336/10336-vysokaya_tehnologiya-svet-inzheneriya-sinij-informacionnye_tehnologii-2560x1440.jpg);
   background-attachment: fixed;
@@ -58,16 +59,29 @@ p {
   margin-bottom: 0.5rem;
 }
 
-input, textarea, option, select {
+input, textarea, select {
   width: 100%;
   min-height: 2rem;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  margin-top: 0.5rem;
-  padding-left: 8;
+  margin: 0.5rem 0 0 0;
+  padding: 0 0 0 0.5rem;
   border-radius: 4px;
   border: none;
   outline: none;
+  }
+
+ select {
+  width: 101.5%;
+ }
+ 
+ label {
+    display: block;
+    margin: 0 0.5rem 0 0;
+  }
+
+  textarea {
+    padding-top: 0.5rem;
   }
 
 input:focus {
@@ -90,14 +104,6 @@ select:focus {
  box-shadow: 0 0 2px 2px CornflowerBlue;
 }
 
-textarea {
-  padding-top: 8;
-}
-
-label {
-  display: block;
-	margin: 0 0;
-}
 
 .inline {
   width: unset;
@@ -111,3 +117,4 @@ input[type="submit"] {
   background-color: Aquamarine;
   font-weight: bold;
 }
+
