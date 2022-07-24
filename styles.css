@@ -1,0 +1,112 @@
+body {
+  width: 100%;
+  margin: 0 0 0 0;
+  background-image: url(https://img1.akspic.ru/crops/6/3/3/0/10336/10336-vysokaya_tehnologiya-svet-inzheneriya-sinij-informacionnye_tehnologii-2560x1440.jpg);
+  color:white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px; 
+}
+
+header {
+  text-align: center;
+  margin: 2rem 0.5rem; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h1 {
+font-size: 32px;
+}
+
+.Description{
+  font-style: italic;
+}
+
+.Description, .Name {
+  margin-top: 0.1rem;
+  margin-bottom: 0.3rem;
+}
+
+form {
+  background-color: rgba(0, 50, 100, 70%);
+  width: 60vw;
+	max-width: 700px;
+	min-width: 300px;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: 0;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+fieldset:last-of-type {
+  padding-top: 0.5rem;
+}
+
+p {
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea, option, select {
+  width: 100%;
+  min-height: 2rem;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0.5rem;
+  padding-left: 8;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  }
+
+input:focus {
+ box-shadow: 0 0 2px 2px CornflowerBlue;
+}
+
+input[type="radio"]:focus {
+ box-shadow: none;
+}
+
+input[type="checkbox"]:focus {
+ box-shadow: none;
+}
+
+textarea:focus {
+ box-shadow: 0 0 2px 2px CornflowerBlue;
+}
+
+select:focus {
+ box-shadow: 0 0 2px 2px CornflowerBlue;
+}
+
+textarea {
+  padding-top: 8;
+}
+
+label {
+  display: block;
+	margin: 0 0;
+}
+
+.inline {
+  width: unset;
+  margin: 0 1rem 0 0;
+  vertical-align: middle;
+  transform: scale(1.5);
+}
+
+input[type="submit"] {
+  height: 2.5rem;
+  background-color: Aquamarine;
+  font-weight: bold;
+}
